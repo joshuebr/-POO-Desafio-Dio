@@ -8,7 +8,7 @@ public class iPhone {
     }
 
     public void ligar() {
-        System.out.println("iPhone ligado.");
+        System.out.println("Chamada iniciada.");
     }
 
     public void atenderChamada() {
@@ -44,7 +44,7 @@ public class iPhone {
     }
 
     public static void main(String[] args) {
-        iPhone meuiPhone = new iPhone("iPhone 12", 256);
+        iPhone meuiPhone = new iPhone("iPhone 15", 256);
 
         meuiPhone.ligar();
         meuiPhone.atenderChamada();
